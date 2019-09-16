@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".InfoReq">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:text="@string/name"
+        android:textSize="17sp"
+        android:textColor="#AFA400"
+        app:layout_constraintLeft_toLeftOf="@id/slogan2"
+        app:layout_constraintTop_toBottomOf="@id/slogan2" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/phone"
+        android:textSize="17sp"
+        android:textColor="#AFA400"
+        app:layout_constraintLeft_toLeftOf="@id/slogan2"
+        app:layout_constraintTop_toBottomOf="@id/name" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/email"
+        android:textSize="17sp"
+        android:textColor="#AFA400"
+        app:layout_constraintLeft_toLeftOf="@id/slogan2"
+        app:layout_constraintTop_toBottomOf="@id/phone" />
+
+    <TextView
+        android:id="@+id/price_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:text="@string/price_limit"
+        android:textSize="17sp"
+        android:textColor="#AFA400"
+        app:layout_constraintLeft_toLeftOf="@id/slogan2"
+        app:layout_constraintTop_toBottomOf="@id/email" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/price"
+        android:textSize="17sp"
+        android:textColor="#AFA400"
+        app:layout_constraintLeft_toLeftOf="@id/slogan2"
+        app:layout_constraintTop_toBottomOf="@id/price_limit" />
+
+    <TextView
+        android:id="@+id/slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/slogan"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/slogan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/slogan2"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/slogan" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

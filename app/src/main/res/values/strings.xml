@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">WiSplit</string>
+    <string name="app_slogan">Share your WiFi, split the bill.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Share your WiFi,</string>
+    <string name="nav_header_subtitle">split the bill.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps_fragment">Map</string>
+    <string name="find_net">Find WiFi networks near you!</string>
+    <string name="find_req">Find WiFi requests near you!</string>
+    <string name="add_net">Add an WiFi network on here</string>
+    <string name="open_sett"> We are opening the settings for you...</string>
+    <string name="add_req"> Add an WiFi request on here</string>
+
+    <string name="check_gps">Check your GPS connection.</string>
+    <string name="check_internet">Check your internet connection.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="empty"></string>
+    <string name="ok">Ok</string>
+    <string name="send">Send</string>
+    <string name="home">Return</string>
+    <string name="confirm">This is going to delete all your data</string>
+
+
+    <string name="continue_view">Tap to continue</string>
+    <string name="continue_view_ag">Tap again to continue</string>
+
+    <string name="info_text_net">Get near your WiFi router</string>
+
+    <string name="info_text_req">Get to where you want WiFi</string>
+
+    <string name="info_text_location">We will use your location!</string>
+
+    <string name="info_text_signal">Try to get a good signal</string>
+    <string name="info_text_sig">Click to open the settings!</string>
+
+    <string name="info_text_signal_mod">Did you find the network?</string>
+    <string name="info_text_sig_mod">If not possible try again later!</string>
+
+    <string name="info_text_payment">A lot of savings in your</string>
+    <string name="info_text_pay"> way by splitting bills!</string>
+
+    <string name="info_text_payment_mod">Get contact information</string>
+    <string name="info_text_pay_mod">so you can make the deal!</string>
+
+    <string name="info_text_alert">This payment will grant access to the</string>
+    <string name="info_text_al">user\'s phone number and email</string>
+
+    <string name="slogan">Share your WiFi,</string>
+    <string name="slogan2">split the bill.</string>
+
+    <string name="title_activity_add_req">AddReq</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_info_net">InfoNet</string>
+
+    <string name="title_activity_payment_screen">PaymentScreen</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="email">email</string>
+    <string name="wifi">wifi</string>
+    <string name="price">price</string>
+
+    <string name="first_name">First Name</string>
+    <string name="phone_number">Phone</string>
+    <string name="email_address">Email Address</string>
+    <string name="price_limit">Price Limit</string>
+    <string name="wifi_name">WiFi Name</string>
+    <string name="asked_price">Asked Price</string>
+
+    <string name="networks">Networks</string>
+    <string name="requests">Requests</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+
+    <string name="userNetwork">Delete your other network or upgrade your edition!</string>
+    <string name="userRequest">Delete your other request or upgrade your edition!</string>
+
+
+    <string name="us_currency">$</string>
+    <string name="location_null">Retry later! Your location could not be retrieved.</string>
+
+
+
+</resources>
